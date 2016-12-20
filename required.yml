@@ -45,7 +45,7 @@ celery:
 new_relic:
 
 # Do we automatically fecth and install a TSL certificate for Nginx HTTPS traffic from letsencrypt.com. If ``on`` you must supply a valid ``server_name`` and have DNS configured.
-letsenrypt:
+letsencrypt:
 
 # Do we install an automatic Duplicity backup script. If `òn`` you need have credentials for Duplicity backup scripts in the :term:`secrets` INI file.
 backup:
