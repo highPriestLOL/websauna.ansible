@@ -12,7 +12,7 @@
     - site_id: myapp
 
     # Do we create Let's Encrypt HTTPS certificate for the site
-    - letsenrypt: on
+    - letsencrypt: on
 
     # Websocket is only needed to connect to IPython Notebook running on the server
     - websocket: off
